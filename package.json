@@ -1,0 +1,19 @@
+{
+  "name": "mcp-demo",
+  "version": "1.0.0",
+  "description": "A tiny MCP server for a pretend SaaS (DemoDesk): ask Claude about signups, customers and revenue. No keys, demo data only.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.7"
+  }
+}
